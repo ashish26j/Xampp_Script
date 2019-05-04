@@ -15,7 +15,7 @@ Clone repository
  - Go to C:\MyLab\xampp\apps\
  - Right click >> git-bash here
  - Clone Git repo:
-     git clone <>
+     git clone https://github.com/ashish26j/Xampp_Script.git
 	 
 
 Wordpress Preparation
@@ -26,8 +26,10 @@ Wordpress Preparation
  
 
 Step to Run Script:
+ - Go to C:\MyLab\xampp\apps\Xampp_Script
+ - Right click >> git-bash here
  - Run:
-    ./create_site.sh <appname> <yes>/<no>
+    ./create_site.sh appname yes/no
 	
 NOTE: 
 1. create_site.sh $2 parameter is expecting 'yes' or 'no' as value. Depending on this, it decides weather site should be wordpress type or not. eg
