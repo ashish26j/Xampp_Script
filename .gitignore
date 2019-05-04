@@ -1,0 +1,7 @@
+Site_TEMPLATE/conf/certs/*
+wordpress_5.1
+wordpress_5.1/*
+*.tar
+*.tar.gz
+*.zip
+*.lnk
